@@ -723,7 +723,7 @@ label.error{
   letter-spacing: 0.32em;
   position: absolute;
   z-index: 3;
-  color: #100C72;
+  color:orange;
   left: 50vmin;
   top:5.9vmin;
 }
@@ -851,6 +851,7 @@ label.error{
   letter-spacing: 0.32em;
   text-transform: uppercase;
   margin-bottom: 0;
+  background-color: transparent;
 }
 
 .navbar-desctop-menu li{
@@ -867,7 +868,7 @@ label.error{
 
 .navbar-desctop-menu li a:hover,
 .navbar-desctop-menu .active > a{
-  color:  #0A1CCD;
+  color: orange;
 }
 
 .navbar-desctop-menu  > li{
@@ -876,7 +877,7 @@ label.error{
 }
 
 .navbar-desctop-menu > li > a{
-  color: #fff;
+  color: #0A1CCD;
   background-color: transparent;
   margin-bottom: 1.5em;
 }
@@ -953,7 +954,7 @@ label.error{
 
 .navbar-desctop.affix .navbar-desctop-menu li > a:hover,
 .navbar-desctop.affix .navbar-desctop-menu .active > a{
-  color:#0A1CCD;
+  color:orange;
 }
 
 
