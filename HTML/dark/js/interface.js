@@ -311,7 +311,7 @@
 			    submitHandler: function(form){
 		        	$.ajax({
 			            type: "POST",
-			            url:"mail.php",
+			            url:"mailto.php",
 			            data: $(form).serialize(),
 			            success: function() {
 		                	$('.col-message, .success-message').show();
