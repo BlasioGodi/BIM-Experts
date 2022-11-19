@@ -182,7 +182,7 @@ function initialize() {
     
     //change address details here
     var contentString = '<div class="map-info">' 
-    + '<div class="BIM-Experts Location">' 
+    + '<div class="map-title">' 
     + '<h3>go<span class="text-primary">.</span>arch</h3></div>' 
     + '<div class="map-address-row"><i class="fa fa-map-marker"></i><span class="text">USA, New York<br> 648 Ivah Street Apt. 375</span></div><div class="map-address-row"><i class="fa fa-phone"></i><span class="text">+0 543 554 44-25</span></div><div class="map-address-row"><span class="map-email"><i class="fa fa-envelope"></i><span class="text">go.arch@mail.com</span></span>' 
     + '</div>';
@@ -196,7 +196,7 @@ function initialize() {
     marker = new google.maps.Marker({
         map: map,
         draggable: true,
-        title: 'BIM Experts', //change title here
+        title: 'BIMExperts', //change title here
         animation: google.maps.Animation.DROP,
         position: mapLocation
     });
