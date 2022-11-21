@@ -851,7 +851,7 @@ img.resize{
 
 .navbar-desctop-menu li a:hover,
 .navbar-desctop-menu .active > a{
-  color:  #ff904c;
+  color: #0A1CCD;
 }
 
 .navbar-desctop-menu  > li{
@@ -937,7 +937,7 @@ img.resize{
 
 .navbar-desctop.affix .navbar-desctop-menu li > a:hover,
 .navbar-desctop.affix .navbar-desctop-menu .active > a{
-  color:#ff904c;
+  color: #0A1CCD;
 }
 
 
