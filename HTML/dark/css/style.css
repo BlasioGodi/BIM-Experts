@@ -183,6 +183,17 @@ h4,
   text-transform: uppercase;
 }
 
+h5,
+.h5{
+  font-family: 'montserratsemibold';
+  font-size: 1em;
+  line-height: 1.35;
+  font-weight: normal;
+  color:#ff904c;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
 h1 a,
 .h1 a,
 h2 a,
@@ -219,7 +230,7 @@ ul{
 }
 
 a {
-  color:#100C72;
+  color:#ff904c;
   -webkit-transition: color .3s ease-out;
        -o-transition: color .3s ease-out;
           transition: color .3s ease-out;
@@ -1555,7 +1566,7 @@ label.error{
   height: 9em;
   margin:-4.5em;
   border-radius: 50%;
-  background-color: rgba(197,164,126,0.84);
+  background-color: #ff904c;
   overflow: hidden;
   opacity: 0;
   -webkit-transform: scale(0.5);
