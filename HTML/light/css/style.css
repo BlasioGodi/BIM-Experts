@@ -325,6 +325,24 @@ label.error{
           transition: all .3s ease-out!important;
 }
 
+.btn2{
+  font-family: 'montserratsemibold';
+  position: relative;
+  display: inline-block;
+  border:0.2em solid transparent;
+  border-radius: 30px;
+  padding:1.1em 2.2em 1.05em;
+  font-size: 0.875em;
+  color:#fff;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+  border:0;
+  -webkit-transition: all .3s ease-out!important;
+          transition: all .3s ease-out!important;
+}
+
 .btn:hover,
 .btn:focus{
   color: #fff;
@@ -618,7 +636,7 @@ img.resize{
   z-index: 4;
   left: 0;
   top:0;
-  width: 34vmin;
+  width: 32vmin;
   height: 40.7vmin;
   padding: 4.8vmin 2em 4.8vmin;
   background-color: #f6f5f3;
