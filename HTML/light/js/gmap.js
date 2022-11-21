@@ -1,4 +1,4 @@
-var mapLocation = new google.maps.LatLng(-37.823534, 144.975617); //change coordinates here
+var mapLocation = new google.maps.LatLng(-1.2659185521016876, 36.799107284985205); //change coordinates here
 var marker;
 var map;
 
@@ -196,7 +196,7 @@ function initialize() {
     marker = new google.maps.Marker({
         map: map,
         draggable: true,
-        title: 'Go.arch', //change title here
+        title: 'BIMExperts', //change title here
         animation: google.maps.Animation.DROP,
         position: mapLocation
     });
