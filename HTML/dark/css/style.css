@@ -404,7 +404,7 @@ label.error{
 
 .btn-gray:hover{
 
-  background-color: #c5a47e;
+  background-color: rgba(255,144,76, 0.95);
 }
 
 .btn-shadow-1{
@@ -741,7 +741,7 @@ label.error{
   letter-spacing: 0.32em;
   position: absolute;
   z-index: 3;
-  color:orange;
+  color:rgba(255,144,76, 0.95);
   left: 50vmin;
   top:5.9vmin;
 }
@@ -886,7 +886,7 @@ label.error{
 
 .navbar-desctop-menu li a:hover,
 .navbar-desctop-menu .active > a{
-  color: orange;
+  color: rgba(255,144,76, 0.95);
 }
 
 .navbar-desctop-menu  > li{
@@ -972,7 +972,7 @@ label.error{
 
 .navbar-desctop.affix .navbar-desctop-menu li > a:hover,
 .navbar-desctop.affix .navbar-desctop-menu .active > a{
-  color: orange;
+  color: rgba(255,144,76, 0.95);
 }
 
 
@@ -2043,7 +2043,7 @@ img.mfp-img{
 
 .blog-meta .author a:hover{
   text-decoration: none;
-  color:#c5a47e;
+  color: rgba(255,144,76, 0.95);
 }
 
 .blog-meta .time{
@@ -2076,6 +2076,7 @@ img.mfp-img{
 .read-more:hover{
   text-decoration: none;
   background-position: 95% 50%;
+  color: rgba(255,144,76, 0.95);
 }
 
 .blog-info .read-more{
