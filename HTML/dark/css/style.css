@@ -972,7 +972,7 @@ label.error{
 
 .navbar-desctop.affix .navbar-desctop-menu li > a:hover,
 .navbar-desctop.affix .navbar-desctop-menu .active > a{
-  color: #0A1CCD;
+  color: orange;
 }
 
 
