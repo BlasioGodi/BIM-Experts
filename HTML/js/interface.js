@@ -215,7 +215,7 @@
 	$('.slide-number .total-count').text($('#rev_slider li').size());
 
     $('#rev_slider').bind("revolution.slide.onchange",function (e,data) {
-	    $('.slide-number .count').text(data.slideIndex);
+	    $('.slide-number .count').text(data.slideindex);
     });
 
 

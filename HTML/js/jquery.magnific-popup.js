@@ -561,7 +561,7 @@ MagnificPopup.prototype = {
 
 	/**
 	 * Creates Magnific Popup data object based on given data
-	 * @param  {int} index Index of item to parse
+	 * @param  {int} index index of item to parse
 	 */
 	parseEl: function(index) {
 		var item = mfp.items[index],
@@ -1393,7 +1393,7 @@ $.magnificPopup.registerModule('zoom', {
 						transition = 'all '+(zoomSt.duration/1000)+'s ' + zoomSt.easing,
 						cssObj = {
 							position: 'fixed',
-							zIndex: 9999,
+							zindex: 9999,
 							left: 0,
 							top: 0,
 							'-webkit-backface-visibility': 'hidden'
@@ -1624,7 +1624,7 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 				if(embedSrc.indexOf( this.index ) > -1) {
 					if(this.id) {
 						if(typeof this.id === 'string') {
-							embedSrc = embedSrc.substr(embedSrc.lastIndexOf(this.id)+this.id.length, embedSrc.length);
+							embedSrc = embedSrc.substr(embedSrc.lastindexOf(this.id)+this.id.length, embedSrc.length);
 						} else {
 							embedSrc = this.id.call( this, embedSrc );
 						}
@@ -1769,9 +1769,9 @@ $.magnificPopup.registerModule('gallery', {
 			mfp.index = _getLoopedId(mfp.index - 1);
 			mfp.updateItemHTML();
 		},
-		goTo: function(newIndex) {
-			mfp.direction = (newIndex >= mfp.index);
-			mfp.index = newIndex;
+		goTo: function(newindex) {
+			mfp.direction = (newindex >= mfp.index);
+			mfp.index = newindex;
 			mfp.updateItemHTML();
 		},
 		preloadNearbyImages: function() {
