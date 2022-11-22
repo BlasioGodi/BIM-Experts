@@ -1,0 +1,226 @@
+@media (max-width:1500px) {
+	#back-home {
+		 position:absolute;
+		 width:100%;
+		 height:100%;
+		 min-width:1920px;
+		 top:0;
+		 left:0;
+		 margin-left:0;
+		 overflow:hidden;
+	}
+	#back-home img {
+		 width:100%;
+		 height:100%;
+	}
+	.navbar-default .navbar-nav>li>a {
+		padding:18px 0px 10px 0px;
+	}
+	figure.effect-bubba h2 {
+		padding-top:22%;
+		font-size:30px;
+	}
+	figure.effect-bubba p {
+		font-size:16px;
+	}
+}
+@media (max-width:1199px) {
+	.navbar-default .navbar-nav>li {
+			margin-left:4px;
+	}
+	.navbar-default .navbar-nav>li>a {
+			font-size:16px;
+			padding:11px;
+	}
+	.portfolio-container {
+			width:970px;
+	}
+	.portfolio-container .work-post {
+			width:293px;
+	}
+	ul.clients-logo li {
+			width:212px;
+	}
+		.navbar-default .navbar-nav>li>a {
+		padding:18px 0px 10px 0px;
+	}
+}
+@media (max-width:991px) {
+	.flexcaption h1 {
+			font-size:45px;
+	}
+	.flexcaption>p {
+			font-size:18px;
+	}
+	.flex-direction-nav .flex-next {
+			margin-right:7px;
+	}
+	.flex-direction-nav .flex-prev {
+			margin-left:7px;
+	}
+	.innher-header {
+			padding:0;
+	}
+	.navbar-brand {
+			max-width:300px;
+	}
+	.navbar-brand img {
+			max-width:100%;
+	}
+	.navbar-default .navbar-nav>li {
+			margin-left:1px;
+	}
+	.navbar-default .navbar-nav>li>a {
+			font-size:16px;
+			padding:12px 6px;
+			font-size:13px;
+	}
+	.navbar-default .navbar-nav>li>a:hover:after,.navbar-default .navbar-nav>li>a.active:after {
+		 transform:skewX(0deg);
+		 -webkit-transform:skewX(0deg);
+		 -moz-transform:skewX(0deg);
+		 -o-transform:skewX(0deg);
+	}
+	.portfolio-container {
+			width:750px;
+	}
+	.portfolio-container .work-post {
+			width:345px;
+	}
+	ul.filter li {
+			margin-bottom:2px;
+	}
+	ul.clients-logo li {
+			width:345px;
+	}
+	ul.contact-info-list {
+			margin-bottom:35px;
+	}
+	footer p {
+			float:none;
+			text-align:center;
+	}
+	ul.social-icons {
+			float:none;
+			text-align:center;
+	}
+	ul.depth {
+			margin-left:0px;
+	}
+	ul.depth li:before {
+			display:none;
+	}
+		.navbar-default .navbar-nav>li>a {
+		padding:18px 0px 10px 0px;
+	}
+	.navbar-default .navbar-nav>li {
+		margin-left:-30px!important;
+	}
+	.blog-post .read-more {
+		top:40%;
+		margin-left:-34px;
+		margin-top:-34px;
+	}
+	.blog-post:hover>a.read-more {
+		top:40%;
+		margin-top:-34px;
+		left:50%;
+	}
+}
+@media (max-width:767px) {
+	.flexcaption h1 {
+			font-size:36px;
+			margin-bottom:10px;
+	}
+	.flexcaption>p {
+			font-size:16px;
+	}
+	.navbar-toggle {
+			margin-top:32px;
+	}
+	.navbar-brand {
+			max-width:100%;
+	}
+	.navbar-collapse {
+			position:relative;
+			z-index:9999999;
+			-webkit-backface-visibility:hidden;
+	}
+	.navbar-default .navbar-nav>li>a:after {
+			display:none !important;
+	}
+	.navbar-default .navbar-nav>li {
+		 margin-left:30px !important;
+			-webkit-backface-visibility:hidden;
+	}
+	.navbar-default .navbar-nav>li>a {
+		 padding:6px;
+		 font-size:17px;
+			-webkit-backface-visibility:hidden;
+	}
+	.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a.active {
+			color:#fff;
+	}
+	.portfolio-container {
+			width:100%;
+			margin-left:0;
+	}
+	.portfolio-container .work-post {
+			width:100%;
+			margin:15px 0 !important;
+	}
+	ul.clients-logo li {
+			width:48%;
+			margin-left:4%;
+	}
+	ul.clients-logo li:nth-child(2n+1) {
+			margin-left:0;
+	}
+	.text-fields,.submit-area {
+			float:none;
+			width:100%;
+			padding:0;
+	}
+	ul.social-icons li a {
+			width:50px;
+			height:50px;
+	}
+	ul.social-icons li a i {
+			line-height:50px;
+			font-size:24px;
+	}
+	ul.social-icons li {
+			margin-left:5px;
+	}
+	.blog-post .read-more {
+		top:37%;
+		margin-left:-34px;
+		margin-top:-34px;
+	}
+	.blog-post:hover>a.read-more {
+		top:37%;
+		margin-top:-34px;
+		left:50%;
+	}
+	.navbar-default .navbar-nav>li>a {
+		padding-top:20px;
+	}
+}
+@media (max-width:400px) {
+	.flexcaption h1 {
+			font-size:20px;
+			margin-bottom:7px;
+	}
+	.flexcaption>p {
+			font-size:12px;
+	}
+	.flexcaption {
+			padding:0 20px;
+	}
+	.flex-direction-nav {
+			display:none;
+	}
+	.contact-info-list li {
+		width: 100%;
+	}
+}
