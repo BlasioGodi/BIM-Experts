@@ -2202,6 +2202,13 @@ img.mfp-img{
   margin-top: 0.9em;
 }
 
+.image-description{
+  font-family:'Oswald',sans-serif;
+  font-size: 0.88em;
+  color:#ff904c;
+  margin-top: 0.9em;
+}
+
 
 
 /* ------------------------------------------------------------------------------- */
