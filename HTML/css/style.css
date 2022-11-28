@@ -419,6 +419,15 @@ label.error{
   outline: none!important;
 }
 
+.btn4:hover,
+.btn4:focus{
+  color: black;
+  background-color: #fff;
+  -webkit-box-shadow:none;
+  box-shadow: none;
+  outline: none!important;
+}
+
 .btn .icon-next{
   position: relative;
   top:-0.1em;
@@ -432,16 +441,10 @@ label.error{
 }
 
 .btn-white{
-  background-color: white;
+  background-color: #ff904c;
   border-color: #323232;
 }
-
 .btn-gray:hover{
-
-  background-color: rgba(255,144,76, 0.95);
-}
-
-.btn-white:hover{
 
   background-color: rgba(255,144,76, 0.95);
 }
