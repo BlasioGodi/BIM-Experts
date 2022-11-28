@@ -353,11 +353,37 @@ label.error{
   -webkit-transition: all .3s ease-out!important;
           transition: all .3s ease-out!important;
 }
+.btn3{
+  font-family: 'montserratsemibold';
+  position: relative;
+  display: inline-block;
+  border:0.2em solid #050352;
+  border-radius: 30px;
+  padding:1.1em 2.2em 1.05em;
+  font-size: 0.875em;
+  color:#fff;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #050352;
+  border:0;
+  -webkit-transition: all .3s ease-out!important;
+          transition: all .3s ease-out!important;
+}
 
 .btn:hover,
 .btn:focus{
   color: #fff;
   background-color: #ff904c;
+  -webkit-box-shadow:none;
+  box-shadow: none;
+  outline: none!important;
+}
+
+.btn3:hover,
+.btn3:focus{
+  color: #fff;
+  background-color: #050352;
   -webkit-box-shadow:none;
   box-shadow: none;
   outline: none!important;
@@ -380,7 +406,11 @@ label.error{
 }
 
 .btn-shadow-2{
-  box-shadow:0 15px 34px rgba(197,164,126,0.5);
+  box-shadow:0 15px 34px #ff904c;
+}
+
+.btn-shadow-3{
+  box-shadow:0 15px 34px #050352;
 }
 
 

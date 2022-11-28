@@ -392,6 +392,24 @@ label.error{
           transition: all .3s ease-out!important;
 }
 
+.btn4{
+  font-family: 'montserratsemibold';
+  position: relative;
+  display: inline-block;
+  border:0.2em solid #050352;
+  border-radius: 30px;
+  padding:1.1em 2.2em 1.05em;
+  font-size: 0.875em;
+  color:black;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #050352;
+  border:0;
+  -webkit-transition: all .3s ease-out!important;
+          transition: all .3s ease-out!important;
+}
+
 .btn:hover,
 .btn:focus{
   color: #fff;
@@ -413,7 +431,17 @@ label.error{
   border-color: #323232;
 }
 
+.btn-white{
+  background-color: white;
+  border-color: #323232;
+}
+
 .btn-gray:hover{
+
+  background-color: rgba(255,144,76, 0.95);
+}
+
+.btn-white:hover{
 
   background-color: rgba(255,144,76, 0.95);
 }
