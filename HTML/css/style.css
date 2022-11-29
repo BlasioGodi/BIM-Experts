@@ -194,6 +194,17 @@ h5,
   text-transform: uppercase;
 }
 
+h6,
+.h6{
+  font-family: 'montserratsemibold';
+  font-size: 1em;
+  line-height: 1.35;
+  font-weight: normal;
+  color:#ff904c;
+  letter-spacing: 0.2em;
+  text-transform:capitalize;
+}
+
 h1 a,
 .h1 a,
 h2 a,
