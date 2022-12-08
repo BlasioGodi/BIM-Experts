@@ -840,28 +840,64 @@ img.resize{
 }
 
 .social-list{
-  margin-bottom: 3.5vmin;
+  margin-bottom: 0.5vmin;
 }
 
 .social-list li{
-  margin-top: 3.8vmin;
+  margin-top: 0.5vmin;
 }
 
 .social-list .fa{
   font-size: 2.4vmin;
   color: #c5c4c2;
+  width:50px;
+  height:50px;
+  line-height:50px;
+  transition:all 0.17s ease-in-out;
+  -moz-transition:all 0.17s ease-in-out;
+  -webkit-transition:all 0.17s ease-in-out;
+  -o-transition:all 0.17s ease-in-out;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -o-border-radius:50%;
 }
 
 .social-list .fa:hover{
-  color:#ff904c;
+  background: #c5c4c2;
+}
+
+.social-list-facebook .fa:hover{
+  color:#4267B2;
   text-decoration: none;
 }
 
+.social-list-whatsapp .fa:hover{
+  color:#25D366;
+  text-decoration: none;
+}
 
+.social-list-twitter .fa:hover{
+  color:#1DA1F2;
+  text-decoration: none;
+}
+
+.social-list-instagram .fa:hover{
+  color:#FCAF45;
+  text-decoration: none;
+}
+
+.social-list-linkedin .fa:hover{
+  color:#0077B5;
+  text-decoration: none;
+}
+
+.social-list-pinterest .fa:hover{
+  color:#E60023;
+  text-decoration: none;
+}
 
 /* 2.3 Navbar Desctop */
-
-
 
 .navbar-desctop{
   display: none;
@@ -2418,18 +2454,72 @@ img.mfp-img{
 /*  10. Footer
 /* ------------------------------------------------------------------------------- */
 
-
-
 .footer{
-  text-align: center;
+  text-align: left;
   margin:7.1em 0 5.5em;
-  font-size: 12px;
-  color: #aaa;
+  padding-top: 12em;
+  font-size: 15px;
+  color: #363636;
 }
 
 .footer .brand{
   margin-top: -0.45em;
   font-size: 3.4em;
+}
+
+.footer-text-dp{
+  text-align: center;
+  padding-top: 0em;
+  font-size: 15px;
+}
+
+.footer-text-dp2{
+  text-align: center;
+  padding-top: 4em;
+  margin-left: 0px;
+  font-size: 12px;
+}
+
+.footer-text-dp3{
+  text-align: center;
+  padding-top: 0em;
+  margin-left: 0px;
+  font-size: 12px;
+}
+
+.footer-text-dp2 li{
+  display:inline-block;
+  margin-left:4px;
+}
+
+.footer-text-dp3 li{
+  display:inline-block;
+  margin-left:4px;
+}
+
+.footer-text-dp2 li a{
+  display:inline-block;
+  width:65px;
+  height:25px;
+  color:#363636;
+  text-align:center;
+  text-decoration:none;
+}
+
+.footer-text-dp3 li a{
+  display:inline-block;
+  width:100px;
+  height:25px;
+  color:#363636;
+  text-align:center;
+  text-decoration:none;
+}
+.footer-text-dp2 li a:hover {
+  color:#ff904c;
+}
+
+.footer-text-dp3 li a:hover {
+  color:#ff904c;
 }
 
 .author-link{
@@ -2441,31 +2531,77 @@ img.mfp-img{
   text-decoration: none;
 }
 
+ul.social-icons {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 35px;
+  text-align:center;
+}
+ul.social-icons li {
+  display:inline-block;
+  margin-left:4px;
+}
+ul.social-icons .fa{
+  display:inline-block;
+  width:50px;
+  height:50px;
+  line-height:55px;
+  font-size:31px;
+  transition:all 0.17s ease-in-out;
+  -moz-transition:all 0.17s ease-in-out;
+  -webkit-transition:all 0.17s ease-in-out;
+  -o-transition:all 0.17s ease-in-out;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -o-border-radius:50%;
+  text-align:center;
+  text-decoration:none;
+}
 
+.social-icons .fa:hover{
+  background-color: #c5c4c2;
+}
+
+.social-icon-facebook .fa:hover{
+  color:#4267B2;
+}
+
+.social-icon-github .fa:hover{
+  color:#fff;
+}
+
+.social-icon-twitter .fa:hover{
+  color:#1DA1F2;
+}
+
+.social-icon-instagram .fa:hover{
+  color:#FCAF45;
+}
+
+.social-icon-linkedin .fa:hover{
+  color:#0077B5;
+}
+
+.social-icon-pinterest .fa:hover{
+  color:#E60023;
+}
 
 /* ------------------------------------------------------------------------------- */
 /*  11. Responsive styles
 /* ------------------------------------------------------------------------------- */
 
-
-
 /* 11.1 Min width 768px */
 
 
-
 @media (min-width: 768px){
-
 
 
   html{
     font-size: 85%;
   }
 
-
-
   /* Slider */
-
-
 
   .arrow-left{
     top: 43.5vmin;
@@ -2480,11 +2616,7 @@ img.mfp-img{
     bottom: auto;
   }
 
-
-
   /* About */
-
-
 
   .entry{
     padding: 0 7.5em;
@@ -2494,12 +2626,8 @@ img.mfp-img{
     padding: 0 4.4em;
   }
 
-
-
   /* Project Carousel */
-
-
-
+  
   .owl-prev{
     left: 3.6em
   }
@@ -2508,11 +2636,7 @@ img.mfp-img{
     right:3.6em;
   }
 
-
-
   /* Projects Deatails */
-
-
 
   .project-details{
     margin-top: 7.1em;
@@ -2548,21 +2672,14 @@ img.mfp-img{
 
 /* 11.2 Min width 992px */
 
-
-
 @media (min-width: 992px){
-
 
 
   html{
     font-size: 92%;
   }
 
-
-
   /* Content styles */
-
-
 
   .text-center-md{
     text-align: center;
@@ -2575,11 +2692,8 @@ img.mfp-img{
   .text-left-md{
     text-align: left;
   }
-
-
   
   /* Navbar Mobile */
-
 
   .navbar-mobile{
     position: absolute;
@@ -2588,10 +2702,7 @@ img.mfp-img{
   }
 
 
-
   /* About */
-
-
 
   .col-about-img{
     padding-left: 0;
@@ -2602,11 +2713,7 @@ img.mfp-img{
     max-width: calc(100% + 5px);
   }
 
-
-
   /* Project Details */
-
-
 
   .project-details-item:nth-child(odd) .project-details-img{
     padding-left: 5px;
@@ -2619,11 +2726,8 @@ img.mfp-img{
   }
 
 
-
   /* Blog Details */
 
-
-  
   .col-primary{
     padding-right: 2.2em;
   }
@@ -2634,10 +2738,7 @@ img.mfp-img{
     padding:0 10px 0 0;
   }
 
-
-
   /* Contacts */
-
 
   .row-field{
     margin-left: -15px;
@@ -2649,10 +2750,7 @@ img.mfp-img{
   }
 }
 
-
 /* 11.3 Min width 1200px */
-
-
 
 @media (min-width: 1200px){
 
@@ -2661,20 +2759,13 @@ img.mfp-img{
     font-size: 100%;
   }
 
-
-
    /* Header */
-
-
 
   .main-header{
     padding-left: 0;
   }
 
-
-
   /* Project Details */
-
 
   .project-details-info{
     width: 44%;
@@ -2682,20 +2773,11 @@ img.mfp-img{
 
 }
 
-
-
 /* 11.4 Max height 480px  */
-
-
 
   @media (max-height: 480px){
 
-
-
   /* Slider */
-
-
-
   .arrow-left{
     top: 43.5vmin;
     bottom: auto;
