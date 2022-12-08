@@ -887,7 +887,7 @@ label.error{
 }
 
 .social-list .fa:hover{
-  color:#ff904c;
+  color:#606060;
   text-decoration: none;
 }
 
@@ -2445,13 +2445,11 @@ img.mfp-img{
 /* ------------------------------------------------------------------------------- */
 /*  10. Footer
 /* ------------------------------------------------------------------------------- */
-
-
-
 .footer{
-  text-align: center;
+  text-align: left;
   margin:7.1em 0 5.5em;
-  font-size: 12px;
+  padding-top: 12em;
+  font-size: 15px;
   color: #aaa;
 }
 
@@ -2460,6 +2458,11 @@ img.mfp-img{
   font-size: 3.4em;
 }
 
+.footer-text-dp{
+  text-align: center;
+  padding-top: 3em;
+  font-size: 15px;
+}
 .author-link{
   font-family: 'Montserrat', sans-serif;
   color: #d0d0d0;
@@ -2467,6 +2470,50 @@ img.mfp-img{
 
 .author-link:hover{
   text-decoration: none;
+}
+
+ul.social-icons {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 35px;
+  text-align:center;
+}
+ul.social-icons li {
+  display:inline-block;
+  margin-left:4px;
+}
+ul.social-icons li a {
+  display:inline-block;
+  width:50px;
+  height:50px;
+  border:1px solid rgba(0,0,0,0.1);
+  transition:all 0.17s ease-in-out;
+  -moz-transition:all 0.17s ease-in-out;
+  -webkit-transition:all 0.17s ease-in-out;
+  -o-transition:all 0.17s ease-in-out;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -o-border-radius:50%;
+  text-align:center;
+  text-decoration:none;
+}
+ul.social-icons li a i {
+  display:inline-block;
+  line-height:55px;
+  font-size:31px;
+  color:#358eef;
+  transition:all 0.17s ease-in-out;
+  -moz-transition:all 0.17s ease-in-out;
+  -webkit-transition:all 0.17s ease-in-out;
+  -o-transition:all 0.17s ease-in-out;
+  -webkit-backface-visibility:hidden;
+}
+ul.social-icons li a:hover i {
+  color:#fff;
+}
+ul.social-icons li a:hover {
+  background: #358eef;
 }
 
 
@@ -2482,18 +2529,11 @@ img.mfp-img{
 
 
 @media (min-width: 768px){
-
-
-
   html{
     font-size: 85%;
   }
 
-
-
   /* Slider */
-
-
 
   .arrow-left{
     top: 43.5vmin;
@@ -2508,11 +2548,7 @@ img.mfp-img{
     bottom: auto;
   }
 
-
-
   /* About */
-
-
 
   .entry{
     padding: 0 7.5em;
@@ -2522,11 +2558,7 @@ img.mfp-img{
     padding: 0 4.4em;
   }
 
-
-
   /* Project Carousel */
-
-
 
   .owl-prev{
     left: 3.6em
@@ -2536,11 +2568,7 @@ img.mfp-img{
     right:3.6em;
   }
 
-
-
   /* Projects Deatails */
-
-
 
   .project-details{
     margin-top: 7.1em;
@@ -2572,26 +2600,14 @@ img.mfp-img{
 
 }
 
-
-
 /* 11.2 Min width 992px */
 
-
-
 @media (min-width: 992px){
-
-
-
   html{
     font-size: 92%;
   }
 
-
-
   /* Content styles */
-
-
-
   .text-center-md{
     text-align: center;
   }
@@ -2604,10 +2620,7 @@ img.mfp-img{
     text-align: left;
   }
 
-
-
   /* Navbar Mobile */
-
 
   .navbar-mobile{
     position: absolute;
