@@ -886,7 +886,7 @@ label.error{
   color: #606060;
   width:50px;
   height:50px;
-  line-height: 50px;
+  line-height:50px;
   transition:all 0.17s ease-in-out;
   -moz-transition:all 0.17s ease-in-out;
   -webkit-transition:all 0.17s ease-in-out;
@@ -897,39 +897,37 @@ label.error{
   -o-border-radius:50%;
 }
 
+.social-list .fa:hover{
+  background: #323232;
+}
+
 .social-list-facebook .fa:hover{
   color:#4267B2;
-  background-color: #323232;
   text-decoration: none;
 }
 
 .social-list-whatsapp .fa:hover{
   color:#25D366;
-  background-color: #323232;
   text-decoration: none;
 }
 
 .social-list-twitter .fa:hover{
   color:#1DA1F2;
-  background-color: #323232;
   text-decoration: none;
 }
 
 .social-list-instagram .fa:hover{
   color:#FCAF45;
-  background-color: #323232;
   text-decoration: none;
 }
 
 .social-list-linkedin .fa:hover{
   color:#0077B5;
-  background-color: #323232;
   text-decoration: none;
 }
 
 .social-list-pinterest .fa:hover{
   color:#E60023;
-  background-color: #323232;
   text-decoration: none;
 }
 
@@ -2573,10 +2571,12 @@ ul.social-icons li {
   display:inline-block;
   margin-left:4px;
 }
-ul.social-icons li a {
+ul.social-icons .fa{
   display:inline-block;
   width:50px;
   height:50px;
+  line-height:55px;
+  font-size:31px;
   border:1px solid rgba(0,0,0,0.1);
   transition:all 0.17s ease-in-out;
   -moz-transition:all 0.17s ease-in-out;
@@ -2589,22 +2589,33 @@ ul.social-icons li a {
   text-align:center;
   text-decoration:none;
 }
-ul.social-icons li a i {
-  display:inline-block;
-  line-height:55px;
-  font-size:31px;
-  color:#ff904f;
-  transition:all 0.17s ease-in-out;
-  -moz-transition:all 0.17s ease-in-out;
-  -webkit-transition:all 0.17s ease-in-out;
-  -o-transition:all 0.17s ease-in-out;
-  -webkit-backface-visibility:hidden;
+
+.social-icons .fa:hover{
+  background-color: #323232;
 }
-ul.social-icons li a:hover i {
+
+.social-icon-facebook .fa:hover{
+  color:#4267B2;
+}
+
+.social-icon-github .fa:hover{
   color:#fff;
 }
-ul.social-icons li a:hover {
-  background: #323232;
+
+.social-icon-twitter .fa:hover{
+  color:#1DA1F2;
+}
+
+.social-icon-instagram .fa:hover{
+  color:#FCAF45;
+}
+
+.social-icon-linkedin .fa:hover{
+  color:#0077B5;
+}
+
+.social-icon-pinterest .fa:hover{
+  color:#E60023;
 }
 
 /* ------------------------------------------------------------------------------- */
