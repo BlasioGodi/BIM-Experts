@@ -818,7 +818,7 @@ img.resize{
 
 .vertical-panel-title{
   font-family: 'montserratsemibold';
-  font-size: 10px;
+  font-size: 15px;
   white-space: nowrap;
   text-transform: uppercase;
   letter-spacing: 1em;
@@ -848,7 +848,7 @@ img.resize{
 }
 
 .social-list .fa{
-  font-size: 2.4vmin;
+  font-size: 33px;
   color: #c5c4c2;
   width:50px;
   height:50px;
