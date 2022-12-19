@@ -12,7 +12,7 @@ $responses = [];
 $email = $_POST['email'];
 $subject = $_POST['subject'];
 $name = $_POST['name'];
-$message = $_POST['message'];
+$message = $_POST['msg'];
 // Check if the form was submitted
 if (isset($email, $subject, $name, $message)) {
 	// Validate email adress
@@ -32,27 +32,29 @@ if (isset($email, $subject, $name, $message)) {
 		$phpmailer->Host = 'smtp.gmail.com';
 		$phpmailer->SMTPAuth = true;
 		$phpmailer->Port = 587;
-		$phpmailer->Username = 'Blasio Muhinda';
-		$phpmailer->Password = '291993Godi';
+		$phpmailer->Username = 'bimexke@gmail.com';
+		$phpmailer->Password = 'wagkdohalmwkeznh';
 		$phpmailer->setFrom($email, 'BIMeX Website');
 		$phpmailer->addReplyTo($email, 'BIMeX Website');
 		$phpmailer->addAddress('muhindablasio@gmail.com', 'Me');
 		$phpmailer->addBCC('muhindablasio@yahoo.com', 'Blasio');
 		$phpmailer->Subject = $subject;
+		$exception = new Exception();
 
 		// Enable HTML if needed
 		$phpmailer->isHTML(true);
 		$bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Subject: {$subject}", "Message:", nl2br($message)];
 		$body = join('<br />', $bodyParagraphs);
 		$phpmailer->Body = $body;
-		echo $body;
 		
 		// Try to send the mail
-		if($mail->send()){
+		if($phpmailer->send()){
 			header('Location: make a thank you html page'); // Redirect to 'thank you' page. Make sure you have it
-		} else {
- 
-			$errorMessage = 'Oops, something went wrong. Mailer Error: ' . $phpmailer->ErrorInfo;
+			// Success
+			$responses[] = 'Message sent!';
+		} else { 
+			$responses= 'Oops, something went wrong. Mailer Error: ' . $exception->getMessage();
+			echo $exception;
 		}
 	}
 }
