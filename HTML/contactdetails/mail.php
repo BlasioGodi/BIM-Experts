@@ -36,8 +36,8 @@ if (isset($email, $subject, $name, $message)) {
 		$phpmailer->Password = 'wagkdohalmwkeznh';
 		$phpmailer->setFrom($email, 'BIMeX Website');
 		$phpmailer->addReplyTo($email, 'BIMeX Website');
-		$phpmailer->addAddress('muhindablasio@gmail.com', 'Me');
-		$phpmailer->addBCC('muhindablasio@yahoo.com', 'Blasio');
+		$phpmailer->addAddress('bimexke@gmail.com', 'BIM GMAIL');
+		$phpmailer->addBCC('bimexperts@yahoo.com', 'BIM Yahoo');
 		$phpmailer->Subject = $subject;
 		$exception = new Exception();
 
