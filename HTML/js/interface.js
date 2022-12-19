@@ -326,4 +326,27 @@
 		});
 	}
 
+	/*---Modify this section---*/
+	if ($('.js-ajax-form2').length) {
+		$('.js-ajax-form2').each(function(){
+			$(this).validate({
+				errorClass: 'error wobble-error',
+			    submitHandler: function(form){
+		        	$.ajax({
+			            type: "POST",
+			            url:"/mail.php",
+			            data: $(form).serialize(),
+			            success: function() {
+		                	$('.col-message, .success-message').show();
+		                },
+
+		                error: function(){
+			                $('.col-message, .error-message').show();
+			            }
+			        });
+			    }
+			});
+		});
+	}
+
 })(jQuery);
