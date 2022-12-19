@@ -13,6 +13,14 @@ $email = $_POST['email'];
 $subject = $_POST['subject'];
 $name = $_POST['name'];
 $message = $_POST['msg'];
+
+
+$name = $_POST["name"];
+$email = $_POST["email"];
+$phone = $_POST["phone"];
+$company = $_POST["company"];
+$message = $_POST["message"];
+
 // Check if the form was submitted
 if (isset($email, $subject, $name, $message)) {
 	// Validate email adress
