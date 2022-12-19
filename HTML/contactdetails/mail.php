@@ -29,32 +29,30 @@ if (isset($email, $subject, $name, $message)) {
 		//SMTP Configuration settings
 		$phpmailer = new PHPMailer(true);
 		$phpmailer->isSMTP();
-		$phpmailer->Host = 'smtp.mailtrap.io';
+		$phpmailer->Host = 'smtp.gmail.com';
 		$phpmailer->SMTPAuth = true;
-		$phpmailer->Port = 2525;
-		$phpmailer->Username = '401d2efc697e93';
-		$phpmailer->Password = 'c95f560a8461c6';
-		$mail->setFrom($email, 'Mailtrap Website');
-		$mail->addAddress('example@example.com', 'Me');
-		$mail->Subject = $subject;
+		$phpmailer->Port = 587;
+		$phpmailer->Username = 'Blasio Muhinda';
+		$phpmailer->Password = '291993Godi';
+		$phpmailer->setFrom($email, 'BIMeX Website');
+		$phpmailer->addReplyTo($email, 'BIMeX Website');
+		$phpmailer->addAddress('muhindablasio@gmail.com', 'Me');
+		$phpmailer->addBCC('muhindablasio@yahoo.com', 'Blasio');
+		$phpmailer->Subject = $subject;
 
-		// Where to send the mail? It should be your email address
-		$to = 'muhindablasio@gmail.com';
-		// Send mail from which email address?
-		$from = 'noreply@example.com';
-		// Mail subject
-		$subject = $_POST['subject'];
-		// Mail message
-		$message = $_POST['msg'];
-		// Mail headers
-		$headers = 'From: ' . $from . "\r\n" . 'Reply-To: ' . $_POST['email'] . "\r\n" . 'X-Mailer: PHP/' . phpversion();
+		// Enable HTML if needed
+		$phpmailer->isHTML(true);
+		$bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Subject: {$subject}", "Message:", nl2br($message)];
+		$body = join('<br />', $bodyParagraphs);
+		$phpmailer->Body = $body;
+		echo $body;
+		
 		// Try to send the mail
-		if (mail($to, $subject, $message, $headers)) {
-			// Success
-			$responses[] = 'Message sent!';
+		if($mail->send()){
+			header('Location: make a thank you html page'); // Redirect to 'thank you' page. Make sure you have it
 		} else {
-			// Fail
-			$responses[] = 'Message could not be sent! Please check your mail server settings!';
+ 
+			$errorMessage = 'Oops, something went wrong. Mailer Error: ' . $phpmailer->ErrorInfo;
 		}
 	}
 }
