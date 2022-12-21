@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /bimexke.com/
+Allow: /bimexke.com/index.html
+Allow: /bimexke.com/index_light.html
+
+
+Sitemap: https://bimexke.com/sitemap.xml
