@@ -42,7 +42,7 @@ if (isset($name, $email, $phone, $company, $message)) {
 		$phpmailer->addBCC('bimexperts@yahoo.com', 'BIM Yahoo');
 		$phpmailer->Subject = "Website Message";
 		$exception = new Exception();
-		
+
 		//SMTP Debug setting
 		$phpmailer->SMTPDebug = 2;
 
@@ -51,14 +51,14 @@ if (isset($name, $email, $phone, $company, $message)) {
 		$bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Phone: {$phone}", "Company: {$company}", "Message:", nl2br($message)];
 		$body = join('<br />', $bodyParagraphs);
 		$phpmailer->Body = $body;
-		
+
 		// Try to send the mail
-		if($phpmailer->send()){
+		if ($phpmailer->send()) {
 			//Redirect page header('Location: index_light.html');
 			// Success
 			$responses[] = 'Message sent!';
-		} else { 
-			$responses= 'Oops, something went wrong. Mailer Error: ' . $exception->getMessage();
+		} else {
+			$responses = 'Oops, something went wrong. Mailer Error: ' . $exception->getMessage();
 			echo $exception;
 		}
 	}
