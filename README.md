@@ -1,6 +1,6 @@
 <h1>BIM Experts Website</h1>
 <p>This is a website created for the Company, BIM Experts Ltd, which specializes in Building Information Modelling for project delivery.</p>
-<p>Building Information Modelling (BIM) is process where digital models of construction projects are generated virtually, assessed, improved and quantified prior to the execution of the project on the construction site. It is aimed at streamlining the construction process to ensure to the timely delivery of projects.</p>
+<p>Building Information Modelling (BIM) is a process where digital models of construction projects are generated virtually, assessed, improved and quantified prior to the execution of the project on the construction site. It is aimed at streamlining the construction process to ensure to the timely delivery of projects.</p>
 
 <p>You can check out the site here <a href="https://bimexke.com">https://bimexke.com </a>
 
